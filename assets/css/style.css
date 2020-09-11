@@ -37,7 +37,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    margin:0 20px;
+    margin:0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
@@ -66,7 +66,6 @@ footer a {
 }
 /* Hero Style Start */
 .hero {
-    
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
@@ -99,7 +98,7 @@ footer a {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
-    font-size: 16;
+    font-size: 16px;
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
@@ -119,22 +118,32 @@ footer a {
 /* Hero Style End */
 
 /*What We Do ---------------------------*/
-.intro {
-    text-align: center;
-}
 
-.section-title {
+
+.section-title {  
     font-size:55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: 3px solid #fce138;
+    border-bottom: 3px solid;
     display: inline-block;
+}
+
+.primary-border {
+    border-color:#fce138;
+}
+
+.secondary-border {
+    border-color:#39a6b2;
+}
+
+.intro {
+    text-align: center;
 }
 
 .intro p {
     line-height: 1.7;
-    color: #39a6b2;
+    color:#39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
@@ -143,14 +152,6 @@ footer a {
 .steps {
     text-align: center;
     background: #fce138;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
 }
 
 .steps div {
@@ -173,9 +174,13 @@ footer a {
     font-size: 23px;
 }
 
-/*.trainers {
+.steps span {
+    font-size: 38px;
+}
+
+.trainers {
     text-align: center;
-} */
+}
 
 .trainer {
     width: 900px;
@@ -205,7 +210,7 @@ footer a {
 }
 
 .trainer-bio h3 {
-    font-size: 32px;
+    font-size: 132px;
     margin-bottom: 8px;
 }
 
@@ -218,17 +223,6 @@ footer a {
 .trainer-bio p {
     font-size: 17px;
     line-height: 1.3;
-    color: #fce138; 
-    float: left;
-}
-
-.section-title {
-    font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    margin-bottom: 35px;
-    color: #024e76;
 }
 
 .contact {
@@ -251,7 +245,7 @@ footer a {
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
-    color: white;
+    color: black;
 }
 
 .contact-info h3 {
@@ -264,4 +258,9 @@ footer a {
     font-size: 20px;
     font-style: normal;
 }
+
+.contact-info a {
+    color: #fce138
+}
 /* Reach out styles end */
+
