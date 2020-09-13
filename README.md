@@ -12,3 +12,5 @@ https://rssmith95.github.io/run-buddy/
 
 ## Contribution 
 Made by Russ Smith 
+
+## 2019 Run Buddy, Inc
